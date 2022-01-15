@@ -32,7 +32,6 @@ const Navbar = (props) => {
 
    const homeClick=()=>{
      history.push('/');
-     window.location.reload();
    }
    
      const handleCakeClick = () => {
