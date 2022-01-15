@@ -129,7 +129,7 @@ const Cart = () => {
           {currentUser ? (
             <StripeCheckout
               name="Checkout"
-              stripeKey={process.env.REACT_APP_KEY}
+              stripeKey="pk_test_51IfdqMSHF9ykvL0UG9tLmVtC8sRzv9khLPc135KMHJnEAmqwl60Z2AspTM41b8XtTgnE9UtNYP8CXi3cYEyDzBMk00UDlygWWJ"
               amount={totalAmount * 100}
               token={payment}
               shippingAddress
